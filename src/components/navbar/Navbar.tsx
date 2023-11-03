@@ -10,16 +10,16 @@ const Navbar = () => {
       </Link>
       <div className="icons">
         <button>
-          <img src="/search.svg" alt="" className="icon" />
+          <img src="/react-admin-panel/search.svg" alt="" className="icon" />
         </button>
         <button>
-          <img src="/app.svg" alt="" className="icon" />
+          <img src="/react-admin-panel/app.svg" alt="" className="icon" />
         </button>
         <button>
-          <img src="/expand.svg" alt="" className="icon" />
+          <img src="/react-admin-panel/expand.svg" alt="" className="icon" />
         </button>
         <div className="notification">
-          <img src="/notifications.svg" alt="" />
+          <img src="/react-admin-panel/notifications.svg" alt="" />
           <span>1</span>
         </div>
         <div className="user">
@@ -30,7 +30,7 @@ const Navbar = () => {
           <span>Jane</span>
         </div>
         <button>
-          <img src="/settings.svg" alt="" className="icon" />
+          <img src="/react-admin-panel/settings.svg" alt="" className="icon" />
         </button>
       </div>
     </div>
