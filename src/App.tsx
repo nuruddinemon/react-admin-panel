@@ -38,34 +38,34 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/react-admin-panel/",
       element: <Layout />,
       errorElement: <Page404 />,
       children: [
         {
-          path: "/",
+          path: "/react-admin-panel/",
           element: <Home />,
         },
         {
-          path: "/users",
+          path: "/react-admin-panel/users",
           element: <Users />,
         },
         {
-          path: "/products",
+          path: "/react-admin-panel/products",
           element: <Products />,
         },
         {
-          path: "/users/:id",
+          path: "/react-admin-panel/users/:id",
           element: <User />,
         },
         {
-          path: "/products/:id",
+          path: "/react-admin-panel/products/:id",
           element: <Product />,
         },
       ],
     },
     {
-      path: "/login",
+      path: "/react-admin-panel/login",
       element: <Login />,
     },
   ]);

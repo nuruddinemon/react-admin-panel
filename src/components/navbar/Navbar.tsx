@@ -4,7 +4,7 @@ import "./navbar.scss"
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Link to={"/"} className="logo">
+      <Link to={"/react-admin-panel/"} className="logo">
         <img src="logo.svg" alt="" />
         <span>Admin panel</span>
       </Link>
